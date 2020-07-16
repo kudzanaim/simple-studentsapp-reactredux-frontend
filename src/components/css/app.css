@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900");
+html, body {
+  font-family: Roboto;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navitem {
+  display: inline-block;
+  padding: 10px 20px;
+  border: solid 1px #f0efef;
+  margin: 0 10px;
+  background: #e8e8e8;
+  border-radius: 13px;
+  font-size: 13px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.navitem:hover {
+  background: #dedede;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+input.searchfld {
+  padding: 10px;
+  padding-left: 20px;
+  width: 400px;
+  background: #ececec;
+}
+
+button.serchbtn {
+  padding: 10px 50px;
+  border: none;
+  background: #6868ed;
+  color: white;
+  border-radius: 37px;
+  margin-top: 20px;
+}
+
+.studentitm {
+  background: #d9d8d8;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=app.css.map */
